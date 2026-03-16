@@ -45,10 +45,10 @@ export default function Header() {
           <Image 
             src={isScrolled || isMobileMenuOpen ? "/images/logo.svg" : "/images/logo-white.svg"} 
             alt="R&S Soluciones Integrales" 
-            width={isScrolled || isMobileMenuOpen ? 200 : 240} 
-            height={isScrolled || isMobileMenuOpen ? 66 : 80} 
+            width={180} 
+            height={60} 
             priority
-            className="transition-all duration-300"
+            className="header-logo transition-all duration-300"
           />
         </Link>
         

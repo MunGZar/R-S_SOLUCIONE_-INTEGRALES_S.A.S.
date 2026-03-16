@@ -218,6 +218,19 @@ ul {
     font-family: var(--font-heading);
     font-weight: 500;
     color: #fff;
+    max-width: 60%; /* Prevent logo from taking too much space */
+}
+
+.logo .header-logo {
+    width: 100%;
+    height: auto;
+    max-width: 240px; /* Default max width */
+}
+
+@media (max-width: 480px) {
+    .logo .header-logo {
+        max-width: 160px; /* Smaller logo on very small screens */
+    }
 }
 .logo strong { font-weight: 800; color: var(--secondary-color); }
 .logo i { font-size: 2rem; color: var(--secondary-color); }
@@ -684,7 +697,7 @@ ul {
     }
 
     .header .nav-links a { color: var(--primary-color); font-size: 1.25rem; font-weight: 600; }
-    .mobile-toggle { display: block; position: relative; z-index: 1001; }
+    .mobile-toggle { display: block; position: relative; z-index: 1001; font-size: 1.75rem; }
     .header:not(.scrolled) .mobile-toggle { color: #fff; }
     .header.menu-open .mobile-toggle { color: var(--primary-color); }
     .header-actions .btn { display: none; } /* Hide button on mobile header */
