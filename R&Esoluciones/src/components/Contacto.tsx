@@ -29,31 +29,31 @@ export default function Contacto() {
           {/* Información */}
           <div className="contacto-info">
             <div className="section-header">
-              <span className="section-subtitle">Contáctenos</span>
-              <h2 className="section-title">¿Listo para impulsar su Institución?</h2>
-              <p>Solicite una cotización o agende una asesoría personalizada con nuestros expertos.</p>
+              <span className="section-subtitle">Atención en toda Colombia</span>
+              <h2 className="section-title">Contacte a un Experto en Gestión Empresarial</h2>
+              <p>Solicite una cotización detallada o agende una consultoría personalizada para potenciar su organización hoy mismo.</p>
             </div>
 
             <div className="contact-methods">
               <div className="c-method">
                 <div className="c-icon"><i className='bx bxl-whatsapp'></i></div>
                 <div className="c-text">
-                  <h5>Línea de WhatsApp</h5>
-                  <a href="https://wa.me/570000000000" target="_blank" rel="noopener noreferrer">+57 (000) 000-0000</a>
+                  <h5>Asesoría por WhatsApp</h5>
+                  <a href="https://wa.me/570000000000" target="_blank" rel="noopener noreferrer">Contactar Especialista</a>
                 </div>
               </div>
               <div className="c-method">
                 <div className="c-icon"><i className='bx bx-envelope'></i></div>
                 <div className="c-text">
-                  <h5>Correo Electrónico</h5>
+                  <h5>E-mail Corporativo</h5>
                   <a href="mailto:info@rs-soluciones.com">info@rs-soluciones.com</a>
                 </div>
               </div>
               <div className="c-method">
                 <div className="c-icon"><i className='bx bx-map'></i></div>
                 <div className="c-text">
-                  <h5>Sede Principal</h5>
-                  <span>Colombia - Atención Nacional e Internacional</span>
+                  <h5>Cobertura Nacional</h5>
+                  <span>Colombia - Consultoría administrativa y capacitación</span>
                 </div>
               </div>
             </div>
@@ -68,49 +68,49 @@ export default function Contacto() {
                   <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez" />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="empresa">Organización/Empresa</label>
+                  <label htmlFor="empresa">Organización / Entidad</label>
                   <input type="text" id="empresa" name="empresa" placeholder="Ej. Alcaldía / Corp. S.A." />
                 </div>
               </div>
               
               <div className="form-grid">
                 <div className="form-group">
-                  <label htmlFor="correo">Correo Electrónico *</label>
+                  <label htmlFor="correo">Correo Corporativo *</label>
                   <input type="email" id="correo" name="correo" required placeholder="correo@empresa.com" />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="telefono">Teléfono *</label>
-                  <input type="tel" id="telefono" name="telefono" required placeholder="Número de contacto" />
+                  <label htmlFor="telefono">Teléfono de Contacto *</label>
+                  <input type="tel" id="telefono" name="telefono" required placeholder="Número móvil o fijo" />
                 </div>
               </div>
 
               <div className="form-group">
-                <label htmlFor="asunto">Asunto / Servicio de Interés *</label>
+                <label htmlFor="asunto">Servicio de Interés SEO *</label>
                 <select id="asunto" name="asunto" required defaultValue="">
                   <option value="" disabled>Seleccione una opción</option>
-                  <option value="capacitacion">Capacitación y Formación</option>
-                  <option value="consultoria">Consultoría Organizacional</option>
-                  <option value="suministros">Suministro y Comercialización</option>
+                  <option value="capacitacion">Capacitación Organizacional</option>
+                  <option value="consultoria">Consultoría Administrativa</option>
+                  <option value="suministros">Suministro de Bienes e Insumos</option>
                   <option value="asesoria">Asesoría Especializada</option>
-                  <option value="otro">Otro</option>
+                  <option value="otro">Otro Requerimiento</option>
                 </select>
               </div>
 
               <div className="form-group">
-                <label htmlFor="mensaje">Mensaje *</label>
-                <textarea id="mensaje" name="mensaje" rows={4} required placeholder="Cuéntenos cómo podemos apoyarlo..."></textarea>
+                <label htmlFor="mensaje">Detalles de su Solicitud *</label>
+                <textarea id="mensaje" name="mensaje" rows={4} required placeholder="Describa brevemente cómo podemos apoyarlo..."></textarea>
               </div>
               
               <div className="form-check">
                 <input type="checkbox" id="privacidad" name="privacidad" required />
-                <label htmlFor="privacidad">Acepto la <a href="#">Política de Tratamiento de Datos Personales</a>.</label>
+                <label htmlFor="privacidad">Acepto la <a href="#">Política de Datos Personales</a>.</label>
               </div>
 
               <button type="submit" className="btn btn-primary btn-block btn-lg" id="submitBtn" disabled={isSubmitting}>
                 {isSubmitting ? (
-                  <><i className='bx bx-loader-alt bx-spin mr-2'></i> Enviando...</>
+                  <><i className='bx bx-loader-alt bx-spin mr-2'></i> Procesando...</>
                 ) : (
-                  <>Enviar Solicitud <i className='bx bx-send ml-2'></i></>
+                  <>Solicitar Cotización Ahora <i className='bx bx-send ml-2'></i></>
                 )}
               </button>
               

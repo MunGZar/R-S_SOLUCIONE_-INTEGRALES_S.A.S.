@@ -2,6 +2,10 @@ export default function Diferenciadores() {
   return (
     <section className="diferenciadores bg-light section">
       <div className="container">
+        <div className="section-header text-center">
+          <span className="section-subtitle">Por qué elegirnos</span>
+          <h2 className="section-title">Valores que Diferencian nuestra Consultoría</h2>
+        </div>
         <div className="diferenciadores-grid">
           <div className="dif-card">
             <div className="dif-icon"><i className='bx bxs-medal'></i></div>

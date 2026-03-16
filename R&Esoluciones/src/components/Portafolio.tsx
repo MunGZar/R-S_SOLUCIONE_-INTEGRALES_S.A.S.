@@ -3,9 +3,9 @@ export default function Portafolio() {
     <section className="portafolio section bg-light" id="portafolio">
       <div className="container text-center">
         <div className="section-header">
-          <span className="section-subtitle">Trayectoria</span>
-          <h2 className="section-title">Portafolio y Experiencia</h2>
-          <p className="section-desc">Resultados palpables que respaldan nuestra capacidad ejecutiva.</p>
+          <span className="section-subtitle">Experiencia y Resultados</span>
+          <h2 className="section-title">Portafolio de Consultoría y Proyectos</h2>
+          <p className="section-desc">Evidencia de nuestra capacidad técnica y estratégica en el mercado nacional.</p>
         </div>
 
         <div className="portafolio-grid">

@@ -5,21 +5,21 @@ export default function Nosotros() {
         <div className="nosotros-grid">
           <div className="nosotros-text">
             <div className="section-header">
-              <span className="section-subtitle">Identidad Institucional</span>
-              <h2 className="section-title">Quiénes Somos</h2>
+              <span className="section-subtitle">Nuestra Trayectoria Profesional</span>
+              <h2 className="section-title">Excelencia en Consultoría Administrativa</h2>
             </div>
-            <p>Somos una firma líder en el desarrollo, asesoramiento e implementación de estrategias transversales, brindando soporte técnico-administrativo integral a lo largo de toda la cadena de valor institucional.</p>
+            <p>R&S Soluciones Integrales S.A.S. es una firma líder en el desarrollo e implementación de servicios de consultoría estratégica y asesoría técnica en Colombia, brindando soporte integral en toda la cadena de valor institucional.</p>
             
             <div className="mv-cards">
               <div className="mv-card">
                 <i className='bx bx-target-lock mv-icon'></i>
-                <h3>Misión</h3>
-                <p>Impulsar el desarrollo de entidades públicas, privadas y organizaciones sociales mediante la excelencia en nuestro servicio, consultoría experta e insumos de primera categoría.</p>
+                <h3>Nuestra Misión</h3>
+                <p>Impulsar el crecimiento de entidades mediante servicios de consultoría especializada, capacitación organizacional de alto nivel y comercialización de insumos técnicos de primera categoría.</p>
               </div>
               <div className="mv-card">
                 <i className='bx bx-globe mv-icon'></i>
-                <h3>Visión 2035</h3>
-                <p>Consolidarnos internacionalmente como el aliado integral número uno, reconocidos por nuestra eficiencia operativa, calidad indiscutible y transparencia rotunda.</p>
+                <h3>Visión Estratégica</h3>
+                <p>Consolidarnos como el aliado número uno en soluciones integrales en Colombia, siendo reconocidos por nuestra eficiencia, transparencia y calidad indiscutible en procesos administrativos.</p>
               </div>
             </div>
           </div>

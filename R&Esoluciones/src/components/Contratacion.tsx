@@ -5,9 +5,9 @@ export default function Contratacion() {
         <div className="contratacion-wrapper">
           <div className="contratacion-info">
             <div className="section-header">
-              <span className="section-subtitle">Marco Legal</span>
-              <h2 className="section-title">Modalidades de Contratación y Alianzas</h2>
-              <p>Contamos con la solidez jurídica, financiera y operativa para adaptarnos a las dinámicas de contratación más exigentes del mercado nacional e internacional.</p>
+              <span className="section-subtitle">Posicionamiento en el Mercado</span>
+              <h2 className="section-title">Contratación Pública y Alianzas Estratégicas</h2>
+              <p>Contamos con la solidez jurídica, financiera y tecnológica para adaptarnos a los procesos de contratación empresarial más exigentes en Colombia.</p>
             </div>
             
             <ul className="checklist mt-4">
