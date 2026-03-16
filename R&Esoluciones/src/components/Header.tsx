@@ -28,19 +28,27 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
+  }, [isMobileMenuOpen]);
+
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
   return (
-    <header className={`header ${isScrolled || isMobileMenuOpen ? 'scrolled' : ''}`} id="header">
+    <header className={`header ${isScrolled || isMobileMenuOpen ? 'scrolled' : ''} ${isMobileMenuOpen ? 'menu-open' : ''}`} id="header">
       <div className="container header-content">
         <Link href="#" className="logo" onClick={closeMobileMenu} style={{ display: 'flex', alignItems: 'center' }}>
           <Image 
             src={isScrolled || isMobileMenuOpen ? "/images/logo.svg" : "/images/logo-white.svg"} 
             alt="R&S Soluciones Integrales" 
-            width={240} 
-            height={80} 
+            width={isScrolled || isMobileMenuOpen ? 200 : 240} 
+            height={isScrolled || isMobileMenuOpen ? 66 : 80} 
             priority
-            className="transition-opacity duration-300"
+            className="transition-all duration-300"
           />
         </Link>
         
