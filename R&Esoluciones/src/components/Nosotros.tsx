@@ -1,6 +1,6 @@
 export default function Nosotros() {
   return (
-    <section className="nosotros section" id="nosotros">
+    <section className="nosotros section bg-light" id="nosotros">
       <div className="container">
         <div className="nosotros-grid">
           <div className="nosotros-text">

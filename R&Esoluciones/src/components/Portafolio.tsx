@@ -1,6 +1,6 @@
 export default function Portafolio() {
   return (
-    <section className="portafolio section" id="portafolio">
+    <section className="portafolio section bg-light" id="portafolio">
       <div className="container text-center">
         <div className="section-header">
           <span className="section-subtitle">Trayectoria</span>

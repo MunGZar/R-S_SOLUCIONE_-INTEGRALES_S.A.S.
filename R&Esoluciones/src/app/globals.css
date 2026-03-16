@@ -17,7 +17,7 @@
     --bg-light: #F8FAFC;          /* Slate 50 */
     --bg-dark: #0A1C33;           /* Deep Blue Dark Background */
     
-    --border-color: #E2E8F0;      /* Slate 200 */
+    --border-color: #CBD5E1;      /* Slate 300 - Slightly darker for more contrast */
     --success: #3F9036;           /* Corporate Green */
     
     /* Typography */
@@ -25,10 +25,10 @@
     --font-body: 'Inter', sans-serif;
     
     /* Shadows & Effects */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.07);
+    --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.06);
     
     --transition: all 0.3s ease;
     --radius-md: 8px;
@@ -417,7 +417,11 @@ ul {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
     transition: var(--transition);
-    border: 1px solid transparent;
+    border: 1px solid var(--border-color); /* Added border */
+}
+
+.mv-card, .portfolio-item {
+    border: 1px solid var(--border-color);
 }
 .servicio-card:hover {
     transform: translateY(-5px);
