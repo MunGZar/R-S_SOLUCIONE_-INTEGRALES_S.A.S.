@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="footer-brand">
             <Link href="#" className="logo footer-logo mb-4 inline-block">
               <Image
-                src="/images/logo-white.svg"
+                src="/images/logo-white.png"
                 alt="R&S Soluciones Integrales"
                 width={200}
                 height={66}

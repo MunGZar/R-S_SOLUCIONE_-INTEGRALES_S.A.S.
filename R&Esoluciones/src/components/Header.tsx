@@ -43,7 +43,7 @@ export default function Header() {
       <div className="container header-content">
         <Link href="#" className="logo" onClick={closeMobileMenu} style={{ display: 'flex', alignItems: 'center' }}>
           <Image 
-            src={isScrolled || isMobileMenuOpen ? "/images/logo.svg" : "/images/logo-white.svg"} 
+            src={isScrolled || isMobileMenuOpen ? "/images/logo.png" : "/images/logo-white.png"} 
             alt="R&S Soluciones Integrales" 
             width={180} 
             height={60} 
