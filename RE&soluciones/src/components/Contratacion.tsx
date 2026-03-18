@@ -7,7 +7,13 @@ export default function Contratacion() {
             <div className="section-header">
               <span className="section-subtitle">Posicionamiento en el Mercado</span>
               <h2 className="section-title">Contratación Pública y Alianzas Estratégicas</h2>
-              <p>Contamos con la solidez jurídica, financiera y tecnológica para adaptarnos a los procesos de contratación empresarial más exigentes en Colombia.</p>
+              <p>La sociedad estará facultada para celebrar toda clase de contratos de naturaleza civil, comercial y estatal, en desarrollo de su objeto social, actuando como contratista, subcontratista, proveedor o aliado estratégico. Podrá participar en procesos de contratación pública y privada, de conformidad con la normatividad vigente, incluyendo licitaciones, concursos de méritos, selecciones abreviadas y contratación directa.
+
+                 Asimismo, podrá conformar consorcios, uniones temporales, asociaciones y demás figuras de colaboración empresarial permitidas por la ley, con el fin de fortalecer su capacidad operativa, técnica y financiera para la ejecución de proyectos.
+
+                 La sociedad también podrá establecer alianzas estratégicas, convenios de cooperación y acuerdos interinstitucionales con entidades públicas, privadas, nacionales e internacionales, orientados a la formulación, gestión y ejecución de programas y proyectos que contribuyan al cumplimiento de su objeto social.
+
+                 En desarrollo de estas actividades, podrá gestionar recursos, administrar proyectos, suscribir acuerdos de financiamiento y ejecutar iniciativas en distintos sectores, garantizando el cumplimiento de principios de eficiencia, transparencia, responsabilidad y sostenibilidad.</p>
             </div>
             
             <ul className="checklist mt-4">

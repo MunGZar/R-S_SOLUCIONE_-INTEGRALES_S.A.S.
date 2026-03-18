@@ -64,8 +64,12 @@ export default function Servicios() {
             <div className="servicio-card-content">
               <div className="servicio-icon"><i className='bx bx-package'></i></div>
               <div className="servicio-text-wide">
-                <h3>Suministro y Comercialización de Bienes</h3>
-                <p>Provisión estratégica de insumos y bienes técnicos fundamentales para entidades públicas y privadas. Garantizamos calidad y tiempos de respuesta óptimos en toda Colombia.</p>
+                <h3>Suministro y Comercialización de Bienes e Insumos</h3>
+                <p>Comprende el conjunto de actividades orientadas a la adquisición, almacenamiento, distribución y venta de bienes e insumos necesarios para el desarrollo de actividades productivas, comerciales e institucionales. Incluye la identificación de proveedores, gestión de compras, control de inventarios, logística de transporte y entrega oportuna de los productos, garantizando estándares de calidad, cumplimiento normativo y eficiencia en los procesos.
+
+                   Asimismo, abarca la comercialización de bienes e insumos mediante estrategias que permiten satisfacer las necesidades del mercado, promoviendo relaciones comerciales sostenibles, competitividad en precios y servicio al cliente. Este proceso puede involucrar la distribución al por mayor y al detal, así como la implementación de canales físicos y digitales para la oferta de productos.
+
+                   Se prioriza la trazabilidad de los bienes, la optimización de costos, el cumplimiento de especificaciones técnicas y la generación de valor agregado, contribuyendo al fortalecimiento de cadenas de suministro y al desarrollo económico de los territorios donde se ejecutan estas actividades</p>
                 <Link href="#contacto" className="btn btn-outline btn-sm mt-3 text-white">Solicitar Cotización de Suministros</Link>
               </div>
             </div>
