@@ -719,3 +719,218 @@ ul {
     .hero-buttons .btn { width: 100%; }
     .sectores-grid, .diferenciadores-grid, .portafolio-grid { grid-template-columns: 1fr; }
 }
+
+/* =========================================================================
+   SIG - SISTEMA INTEGRADO DE GESTIÓN
+   ========================================================================= */
+.sig-subtitle {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+}
+
+/* Bloque introductorio */
+.sig-intro-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.75rem;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-left: 5px solid var(--primary-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    margin: 2.5rem 0;
+    box-shadow: var(--shadow-sm);
+}
+
+.sig-intro-icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.sig-intro-text {
+    font-size: 1rem;
+    color: var(--text-main);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Pilares */
+.sig-pilares {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.sig-pilar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-main);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.sig-pilar:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.sig-pilar i {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+/* Grid de normas ISO */
+.sig-normas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.sig-norma-card {
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.sig-norma-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+
+.sig-norma-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+/* Colores por norma */
+.sig-card-calidad::before  { background: var(--primary-color); }
+.sig-card-ambiental::before { background: var(--secondary-color); }
+.sig-card-sst::before       { background: #D97706; }
+
+.sig-card-calidad  .sig-norma-icon { background: rgba(12,69,138,0.1); color: var(--primary-color); }
+.sig-card-ambiental .sig-norma-icon { background: rgba(63,144,54,0.1); color: var(--secondary-color); }
+.sig-card-sst .sig-norma-icon       { background: rgba(217,119,6,0.12); color: #D97706; }
+
+.sig-card-calidad  .sig-norma-codigo { color: var(--primary-color); }
+.sig-card-ambiental .sig-norma-codigo { color: var(--secondary-color); }
+.sig-card-sst .sig-norma-codigo       { color: #D97706; }
+
+/* Interior tarjeta */
+.sig-norma-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.sig-norma-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    flex-shrink: 0;
+}
+
+.sig-norma-codigo {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+.sig-norma-nombre {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.sig-norma-desc {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+    margin: 0;
+}
+
+/* Bloque de cierre */
+.sig-cierre {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
+.sig-cierre-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.sig-cierre p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+    opacity: 0.95;
+}
+
+.sig-cierre strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Responsive SIG */
+@media (max-width: 1024px) {
+    .sig-pilares { grid-template-columns: repeat(2, 1fr); }
+    .sig-normas-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .sig-intro-block { flex-direction: column; gap: 1rem; padding: 1.5rem; }
+    .sig-normas-grid { grid-template-columns: 1fr; }
+    .sig-pilares { grid-template-columns: repeat(2, 1fr); }
+    .sig-cierre { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 480px) {
+    .sig-pilares { grid-template-columns: 1fr; }
+}
